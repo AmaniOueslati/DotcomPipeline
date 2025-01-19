@@ -77,7 +77,7 @@ build_image:
           # Start with v1 if no version file exists
           NEW_VERSION="v1";
         fi
-        # Update the checksum and version files
+        # Update the checksum and version files echo
         echo $CODE_CHECKSUM > $CHECKSUM_FILE;
         echo $NEW_VERSION > $VERSION_FILE;
 
